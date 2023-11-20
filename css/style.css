@@ -79,7 +79,7 @@ body {
 }
 @media (max-width:768px) {
     .egypt {
-        margin-top: -595px;
+        margin-top: -128px;
     }
 }
 .egypt h4 {
@@ -237,7 +237,8 @@ body {
         left: 5px
     }
     .translate .copy-btn2 {
-        top: 83px;
+        top: 149px;
+        left: 7px;
     }
     .translate .translate-btn {
         top: 81px;
@@ -246,6 +247,9 @@ body {
     }
     .translate .textarea1 {
         margin-top: 44px;
+    }
+    .translate .textarea2 {
+        margin-top: 43px;
     }
     
 }
@@ -362,12 +366,13 @@ body {
     border-radius: 7px;
 }
 @media (max-width:768px) {
-    .gall2-item a {
-        margin-left: 143px;
-    }
     .gall2 .card-body {
-        margin-top: 19px;
+        margin-top: -2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
 }
 
 /* End Gallery2 Section */
